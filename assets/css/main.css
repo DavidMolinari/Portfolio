@@ -1,12 +1,168 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section {
+    display: block
+}
+
+
+#particles-js {
+    background: #ff5391;
+    display: flex;
+    vertical-align: bottom;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#particles-js .particles-js-canvas-el {
+    width: 100% !important;
+    height: 100vh !important
+}
+
+.header {
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.header .user_name {
+    font-size: 50px;
+    display: block;
+    line-height: 1;
+    color: #fff
+}
+
+@media only screen and (min-width: 550px) {
+    .header .user_name {
+        margin: 0;
+        font-size: 100px
+    }
+}
+
+.header .user_work {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px
+}
+
+@media only screen and (min-width: 550px) {
+    .header .user_work {
+        font-size: 40px
+    }
+}
+
+.header-links {
+    margin: 10px
+}
+
+.header-links .link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px
+}
+
+@media only screen and (min-width: 550px) {
+    .header-links .link {
+        font-size: 20px
+    }
+}
 
 .header-icons {
     display: flex;
     justify-content: center;
     text-align: center
 }
+
+.down, .header-icons .icon {
+    color: #fff;
+    text-align: center
+}
+
+.header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all .7s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px
+}
+
+.header-icons .icon:active, .header-icons .icon:hover {
+    color: #1a222c;
+    background: #fff
+}
+
+@media only screen and (min-width: 550px) {
+    .header-icons .icon {
+        width: 35px;
+        height: 35px;
+        font-size: 35px
+    }
+}
+
+#apropos {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px
+}
+
+@media only screen and (min-width: 550px) {
+    #apropos {
+        width: 80%
+    }
+}
+
+
+
+.header-icons {
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.down, .header-icons .icon {
+    color: #fff;
+    text-align: center
+}
+
+.header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    transition: all .7s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px
+}
+
+.header-icons .icon:active, .header-icons .icon:hover {
+    color: #1a222c;
+    background: #fff
+}
+
+@media only screen and (min-width: 550px) {
+    .header-icons .icon {
+        width: 35px;
+        height: 35px;
+        font-size: 35px
+    }
+}
+
 
 .down, .header-icons .icon {
     color: #fff;
