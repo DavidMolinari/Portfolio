@@ -1,0 +1,7 @@
+User-agent : Googlebot
+Disallow : /assets/js
+
+User-agent : *
+Allow : /
+
+Sitemap : http://davidmolinari.fr/sitemap.xml
