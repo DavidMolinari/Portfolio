@@ -116,9 +116,6 @@ body { background-color:#f1f1f1; margin: 0; padding: 0; -webkit-text-size-adjust
     opacity: 1;
 }
 
-.user .tech img{
-    width: 1em !important;
-}
 .item_content .image .zoom-container div.zoom img {
     width: 100%;
     height: auto;
