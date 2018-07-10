@@ -115,6 +115,10 @@ body { background-color:#f1f1f1; margin: 0; padding: 0; -webkit-text-size-adjust
 .item_content .image .zoom-container div.zoom:hover {
     opacity: 1;
 }
+
+.tech img{
+    width: 1em;
+}
 .item_content .image .zoom-container div.zoom img {
     width: 100%;
     height: auto;
